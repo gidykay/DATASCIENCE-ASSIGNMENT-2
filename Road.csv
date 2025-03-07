@@ -1,3 +1,4 @@
 Accident_Severity,Weather_Condition,Road_Condition,Vehicle_Speed,Num_of_Vehicles_Involved,Additional_Info
-5.2,"Rainy","Wet",60,2,"..."
-7.1,"Sunny","Dry",80,3,"..."
+5.2,"Rainy","Wet",60,2,"Minor collision with slight injuries, emergency services notified"
+7.1,"Sunny","Dry",80,3,"Major accident, significant vehicle damage and multiple injuries"
+6.8,"Cloudy","Wet",70,2,"Moderate impact, traffic delays observed due to on-site investigation"
