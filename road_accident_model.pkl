@@ -1,1 +1,13 @@
+import pickle
+
+# Assume 'model' is your trained linear regression model
+with open("road_accident_model.pkl", "wb") as file:
+    pickle.dump(model, file)
+import pickle
+
+with open("road_accident_model.pkl", "rb") as file:
+    loaded_model = pickle.load(file)
+
+# Now you can use loaded_model to make predictions:
+# new_prediction = loaded_model.predict(new_data)
 
