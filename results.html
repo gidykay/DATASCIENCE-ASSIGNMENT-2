@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Road Accident Regression Analysis Results</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+    .plot {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      padding: 5px;
+      background-color: #fff;
+    }
+    .metrics {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e8e8e8;
+      border-radius: 5px;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 0.95em;
+      color: #333;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Road Accident Regression Analysis Results</h1>
+  <div class="container">
+    <div class="plot">
+      <h2>Actual vs Predicted Accident Severity</h2>
+      <img src="actual_vs_predicted.png" alt="Actual vs Predicted Plot">
+    </div>
+    <div class="plot">
+      <h2>Residual Plot</h2>
+      <img src="residual_plot.png" alt="Residual Plot">
+    </div>
+    <div class="plot">
+      <h2>Predicted Severity Distribution</h2>
+      <img src="predicted_severity_distribution.png" alt="Predicted Severity Distribution">
+    </div>
+    <div class="metrics">
+      <h2>Evaluation Metrics</h2>
+      <p><strong>MSE:</strong> [MSE value]</p>
+      <p><strong>RMSE:</strong> [RMSE value]</p>
+      <p><strong>R² Score:</strong> [R² Score]</p>
+    </div>
+    <div class="note">
+      <p>This analysis was performed using a linear regression model trained on road accident data. The results above include visual insights into model performance and error analysis.</p>
+    </div>
+  </div>
+</body>
+</html>
 
